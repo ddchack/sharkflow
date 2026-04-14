@@ -4,6 +4,8 @@
 
 Automated trading bot for [Polymarket](https://polymarket.com) with advanced mathematical engine, sentiment analysis, historical backtesting, whale tracker, and a Bloomberg terminal-style web dashboard.
 
+![SharkFlow Dashboard](screenshot.png)
+
 > ⚠️ **Disclaimer**: This software is for educational and research purposes only. Betting on prediction markets carries the risk of total loss of invested capital. Use at your own risk.
 
 ---
