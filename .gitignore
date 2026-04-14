@@ -1,0 +1,95 @@
+# ============================================================
+# SharkFlow — .gitignore
+# Carlos David Donoso Cordero (ddchack)
+# ============================================================
+
+# === CREDENCIALES Y SECRETOS (NUNCA subir) ================
+.env
+.env.local
+.env.production
+*.env
+sec.txt
+secrets.txt
+credentials.json
+private_key.txt
+
+# === DATOS PERSONALES DE TRADING ==========================
+backend/data/
+backend/trades.json
+backend/prediction_log.json
+backend/blocked_trades.log
+backend/bot_activity.log
+backend/sports_elo_cache.json
+data/
+*.log
+
+# === PYTHON ===============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+*.whl
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+nosetests.xml
+pytest.xml
+
+# === BACKUPS (generados automáticamente por el bot) =======
+*.bak
+*.bak_v2
+*.bak_v3
+*.bak_old
+*.backup
+*_backup.*
+dashboard.html.bak*
+
+# === ENTORNOS VIRTUALES ====================================
+venv/
+.venv/
+env/
+ENV/
+.virtualenv/
+
+# === SISTEMA OPERATIVO ====================================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# === IDEs =================================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === CLAUDE CODE ==========================================
+.claude/
+
+# === REPOS EXTERNOS (no son parte del proyecto) ===========
+temp_*/
+temp_external_bot/
+temp_polybot/
+
+# === CAPTURAS Y ASSETS PERSONALES ========================
+capturas/
+
+# === CACHÉ Y TEMPORALES ==================================
+*.tmp
+*.temp
+*.cache
+improvement_log.md
